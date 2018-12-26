@@ -3,6 +3,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/slider.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
 <div class="top">
@@ -21,7 +22,7 @@
 </div>
 
 <div class="slider">
-    <div class="slider-slide" id="slide1">
+    <div class="slider-slide" id="slide1" onclick="javascript:next_slide('slide1','slide2');">
         <h2 class="slider-heading">Eaten berry</h2>
         <span class="slider-subheading">
             and go for a walk
@@ -38,21 +39,17 @@
             laborum
         </p>
     </div>
-    <div class="slider-slide" id="slide2">
-        <h2 class="slider-heading">Eaten berry</h2>
+    <div class="slider-slide" id="slide2" onclick="javascript:next_slide('slide2','slide1');">
+        <h2 class="slider-heading">Please, eaten berry</h2>
         <span class="slider-subheading">
             and go for a walk
         </span>
         <span class="slider-title">
-            Today good weather...
+            Is today a good weather?
         </span>
         <p class="slider-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            Ipsum lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum
         </p>
     </div>
 </div>
