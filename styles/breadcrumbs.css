@@ -1,0 +1,26 @@
+.breadcrumbs {
+    max-width: 980px;
+    margin: auto;
+    background-color: #f3f3f3;
+    font-family: sans-serif;
+    font-size: 0.7em;
+}
+
+.breadcrumbs-wrapper {
+    padding: 3px 0 3px 24px;
+}
+
+.breadcrumbs-link {
+    color: #95161f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.breadcrumbs-link:hover {
+    color: #95161f;
+    text-decoration: none;
+}
+
+.breadcrumbs-current {
+    color: #656f7a;
+}

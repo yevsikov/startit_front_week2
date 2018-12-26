@@ -1,0 +1,28 @@
+.menu {
+    max-width: 980px;
+    height: 35px;
+    background-color: #95161f;
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ul.menu-items {
+    list-style-type: none;
+    text-align: right;
+}
+
+li.menu-item {
+    display: inline-block;
+    padding: 9px 23px;
+}
+
+.menu-item > a {
+    color: white;
+    text-decoration: none;
+}
+.menu-item > a:hover {
+    color: #a5adb8;
+}

@@ -54,3 +54,7 @@
   background-color: #ae4b5d;
   vertical-align: middle;
 }
+
+.top-button:hover {
+  box-shadow: 0 0 10px black;
+}
