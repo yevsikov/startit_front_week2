@@ -59,6 +59,12 @@
     color: #ae4b5d;
 }
 
+.footer-social {
+    height: 45px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 @media only screen and (max-width : 800px) {
 
     .footer {

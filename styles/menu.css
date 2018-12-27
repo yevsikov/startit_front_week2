@@ -24,7 +24,7 @@ li.menu-item {
     text-decoration: none;
 }
 .menu-item > a:hover {
-    color: #a5adb8;
+    color: #f7c9c9;
 }
 
 @media only screen and (max-width : 1024px) {
