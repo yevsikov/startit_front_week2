@@ -29,7 +29,7 @@
     font-weight: bold;
 }
 
-.content h2:first-letter {
+.colored-first-letter:first-letter {
     color: #ae4b5d;
 }
 

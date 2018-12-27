@@ -54,7 +54,8 @@
 
 .sidebar-form button:hover {
     background: linear-gradient(#b5242e, #dc3a46);
-    text-decoration: underline;
+    box-shadow: 2px 2px 4px 0px #8a8a8a;
+    text-decoration: none;
 }
 
 .sidebar-blog {
