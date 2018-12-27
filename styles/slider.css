@@ -44,7 +44,9 @@
 }
 
 #slide1 {
-    background: url('../images/slide_01.jpg') round;
+    background: url('../images/slide_01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #slide2 {

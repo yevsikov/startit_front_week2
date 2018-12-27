@@ -150,3 +150,33 @@ thead tr:first-child th:first-child {
 thead tr:first-child th:last-child {
     border-top-right-radius: 10px;
 }
+
+@media only screen and (max-width : 1024px) {
+    .body {
+        flex-direction: column-reverse;
+    }
+
+    .sidebar {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+    .content-columns {
+        flex-direction: column;
+    }
+
+    .content-column {
+        width: inherit;
+        margin: auto;
+    }
+  
+    table {
+        padding: 10px 0;
+        width: 100%;
+        margin: 0;
+        font-size: 0.8em;
+    }
+}

@@ -1,6 +1,5 @@
 .menu {
     max-width: 980px;
-    height: 35px;
     background-color: #95161f;
     margin: auto;
     color: white;
@@ -26,3 +25,11 @@ li.menu-item {
 .menu-item > a:hover {
     color: #a5adb8;
 }
+
+@media only screen and (max-width : 1024px) {
+
+    ul.menu-items {
+        text-align: center;
+    }
+  
+  }

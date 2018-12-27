@@ -80,6 +80,9 @@
     background-size: contain;
     height: 110px;
   }
-  
 
+  .top-left {
+    padding-bottom: 5px;
+  }
+  
 }
