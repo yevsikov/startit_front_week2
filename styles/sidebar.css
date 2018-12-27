@@ -1,0 +1,78 @@
+.sidebar {
+    width: 250px;
+}
+
+.sidebar-form {
+    border: 1px solid gray;
+    background-color: #f3f3f3;
+    margin: 15px;
+}
+
+.sidebar-form input {
+    padding: 10px 5px;
+    margin: 7px 10px;
+    border-radius: 5px;
+    background-color: #e3e4e5;
+    border: none;
+    box-shadow: inset 1px 1px 1px 0px #afafaf;
+    color: #757575;
+    width: 85%;
+    font-size: 0.8em;
+}
+
+.sidebar-form input[type="date"] {
+    padding: 7px 5px;
+}
+
+.sidebar-form h2 {
+    padding-left: 10px;
+}
+
+.sidebar-form select {
+    padding: 5px;
+    margin: 7px 10px;
+    border-radius: 5px;
+    background-color: #e3e4e5;
+    border: 1px solid gray;
+    color: #757575;
+    width: 90%;
+    font-size: 0.8em;
+}
+
+.sidebar-form button {
+    background: linear-gradient(#971821, #ae232d);
+    border: 5px solid white;
+    box-shadow: 2px 2px 4px 0px #8e8e8e;
+    padding: 10px 15px;
+    color: white;
+    font-size: 1em;
+    margin: 15px auto;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sidebar-form button:hover {
+    background: linear-gradient(#b5242e, #dc3a46);
+    text-decoration: underline;
+}
+
+.sidebar-blog {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    padding-right: 10px;
+}
+
+.sidebar-blog p {
+    color: #757575;
+}
+
+.sidebar-blog a {
+    color: #971821;
+    text-decoration: underline;
+}
+
+.sidebar-blog a:hover {
+    color: #b5242e;
+    text-decoration: none;
+}

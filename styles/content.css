@@ -1,0 +1,152 @@
+.body {
+    display: flex;
+    justify-content: center;
+    max-width: 980px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.content {
+    max-width: 740px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.content-with-border {
+    border-left: 1px solid #dadada;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.content-inner {
+    padding: 15px;
+}
+
+.content h2 {
+    display: block;
+    color: #a5adb8;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.content h2:first-letter {
+    color: #ae4b5d;
+}
+
+.content a {
+    color: #971821;
+    text-decoration: underline;
+}
+
+.content a:hover {
+    color: #b5242e;
+    text-decoration: none;
+}
+
+.content-columns {
+    display: flex;
+    justify-content: start;
+}
+
+.content-column {
+    width: 33%;
+}
+
+.content-column img {
+    border: 2px solid white;
+    box-shadow: 2px 2px 13px 0px #9E9E9E;
+}
+
+.content h3 {
+    font-size: 1.3em;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.quote {
+    background-color: #dedede;
+    font-weight: 500;
+    color: #4c4c4c;
+}
+
+.markered {
+    font-weight: 500;
+    color: #4c4c4c;
+}
+
+ul.unstyled {
+    list-style-type:none
+}
+
+li {
+    line-height: 1.5em;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: #a5adb8;
+}
+
+.table-small-cell {
+    text-align: center;
+}
+
+.table-normal-cell {
+    width: 23%;
+}
+
+table {
+    border-radius: 5px;
+}
+
+table tbody {
+    background-color: #282d33;
+}
+
+table thead {
+    background-color: #ae4b5d;
+    font-weight: bold;
+}
+
+table thead {
+    background-color: #ae4b5d;
+    font-weight: bold;
+}
+
+.content table a {
+    color: #d08a97;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+
+thead tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+thead tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
