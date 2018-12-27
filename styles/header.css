@@ -54,3 +54,32 @@
 .top-button:hover {
   box-shadow: 0 0 10px black;
 }
+
+@media only screen and (max-width : 1024px) {
+
+  .top-wrapper {
+    min-width: 620px;
+  }
+
+  .menu-items {
+    font-size: 0.7em;
+  }
+
+}
+
+@media only screen and (max-width : 640px) {
+
+  .top-wrapper {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .top {
+    background-size: contain;
+    height: 110px;
+  }
+  
+
+}
