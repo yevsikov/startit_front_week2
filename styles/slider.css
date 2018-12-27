@@ -51,5 +51,7 @@
 
 #slide2 {
     background: url('../images/slide_02.jpg') round;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: none;
 }
